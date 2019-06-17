@@ -8,11 +8,19 @@
 
 .bg-color-three-reasons {
     background-color: #fff;
-    
+
 }
 
 .bg-color-personal-info {
     background-color: #f4f4f4;
+}
+
+.bg-color-work-history {
+    background-color: #9b59b6;
+}
+
+.bg-color-contact {
+    background-color: #fff;
 }
 
 .ui-menu-color-home {
@@ -33,9 +41,7 @@
     background-color: #525252;
 }
 
-.bg-color-work-history {
-    background-color: #9b59b6;
-}
+
 
 /*-------------------------------Special paddings, margins and text */
 
@@ -54,7 +60,7 @@ h4 {
     font-family: "Exo", sans-serif;
     font-weight: 300;
     color: #fafafa;
-    
+
 }
 
 .inline-block {
@@ -185,14 +191,14 @@ footer {
 }
 
 .cv-pdf i {
-font-size: 18px;
-color: #fafafa;
-text-align: center;
-padding-left: 5px;
-transition: all 0.35s ease-in-out;
--moz-transition: all 0.35s ease-in-out;
--webkit-transition: all 0.35s ease-in-out;
--o-transition: all 0.35s ease-in-out;
+    font-size: 18px;
+    color: #fafafa;
+    text-align: center;
+    padding-left: 5px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
 .cv-pdf i:hover {
@@ -207,33 +213,35 @@ transition: all 0.35s ease-in-out;
 
 
 .social-links li a i {
-width: 32px;
-height: 32px;
-padding: 12px 0;
-border-radius: 50%;
-font-size: 13px;
-line-height: 7px;
-color: #fafafa;
-background: #8f8f8f;
-text-align: center;
-transition: all 0.35s ease-in-out;
--moz-transition: all 0.35s ease-in-out;
--webkit-transition: all 0.35s ease-in-out;
--o-transition: all 0.35s ease-in-out;
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    color: #fafafa;
+    background: #8f8f8f;
+    text-align: center;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
 .social-links li i:hover {
     background-color: #e84610;
 }
+
 #footer-details {
     padding: 20px;
 }
 
 /*-------------------------------Three Reasons */
+
 .three-reasons-icon {
     font-size: 26px;
     color: #e67e22;
-    
+
 }
 
 .three-reasons-heading {
@@ -246,20 +254,20 @@ transition: all 0.35s ease-in-out;
     margin-bottom: 20px;
     display: block;
     clear: both;
-    
+
 }
 
 .personal-info-item .key,
 .personal-info-item .value {
     padding-right: 8px;
     display: inline-block;
-    
+
 }
 
 .personal-info-item .key p,
 .personal-info-item .value p {
     margin: 0;
-    
+
 }
 
 .personal-info-item .key {
@@ -284,7 +292,7 @@ transition: all 0.35s ease-in-out;
     position: relative;
     height: 25px;
     margin-bottom: 4px;
-    
+
 }
 
 .progress-type {
@@ -293,7 +301,7 @@ transition: all 0.35s ease-in-out;
     font-weight: 400;
     padding: 3px 30px 2px 10px;
     color: #fafafa;
-    background-color: rgba(25,25,25, 0.2);
+    background-color: rgba(25, 25, 25, 0.2);
 }
 
 .progress-section {
@@ -318,7 +326,7 @@ transition: all 0.35s ease-in-out;
 .timeline-item p {
     padding: 0;
     margin: 0;
-    
+
 }
 
 .timeline-item:before {
@@ -348,4 +356,37 @@ transition: all 0.35s ease-in-out;
 
 .history-items {
     margin-bottom: 30px;
+}
+
+/*-------------------------------Contact Form */
+
+.contact-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #e84610;
+}
+
+/*-------------------------------Media Queries */
+
+@media(min-width: 992px) {
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
 }
